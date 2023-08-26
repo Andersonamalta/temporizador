@@ -1,11 +1,12 @@
 import React from 'react';
-import Formulario from './components/Forms';
-import Lista from './components/Lists';
+import Formulario from '../Forms';
+import Lista from '../Lists';
+import './style.scss';
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="AppStyle">
       <Formulario/>
       <Lista/>
     </div>
