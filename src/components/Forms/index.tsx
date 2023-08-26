@@ -19,9 +19,9 @@ class Formulario extends React.Component{
                     required 
                     />
                 </div>
-                <div>
+                <div className="inputContainer">
                     <label htmlFor="tempo">
-                        tempo
+                        Tempo
                     </label>
                     <input 
                     type="time"
